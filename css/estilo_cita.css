@@ -1,0 +1,152 @@
+body {
+    background: grey;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #100da1;
+    width: 100%;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#navigation_and_searchbar {
+    background-color: #96dfce;
+    height: 80px;
+}
+
+#navigation_and_searchbar nav {
+    display: block;
+    margin: auto;
+    float: left;
+    width: 70%;
+    max-height: 80px;
+}
+
+#navigation_and_searchbar nav ul {
+    list-style: none;
+}
+ 
+#navigation_and_searchbar nav ul li {
+    float: left;
+    font-size: 16px;
+    line-height: 10px;
+}
+ 
+#navigation_and_searchbar nav ul li a {
+    display: block;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+ 
+#navigation_and_searchbar nav ul li:hover {
+    background: #005687;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#navigation_and_searchbar form {
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    width: calc(100% - 1em);
+    border-radius: 1em;
+    border: solid black;
+    padding: 1em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#navigation_and_searchbar form label {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+}
+
+#navigation_and_searchbar form input {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+#navigation_and_searchbar #submit {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+#navigation_and_searchbar aside {
+    float: left;
+    display: table;
+    width: 30%;
+    height: 100%;
+}
+
+main {
+    width: calc(100% - 1em);
+    min-height: 500px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#container_cita {
+    width: 100%;
+    min-height: 800px;
+}
+
+form {
+    background-color: white;
+    margin: auto;
+    width: calc(400px - 1em);
+    border-radius: 1em;
+    padding: 1em;
+}
+
+form label {
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+}
+
+form fieldset {
+    background-color: #CCC;
+}
+
+form legend {
+    text-align: center;
+}
+
+form textarea {
+    width: 100%;
+    min-height: 80px;
+    resize: none;
+}
+
+footer {
+    background-color: #63aa99;
+    width: calc(100% - 1em);
+    min-height: 80px;
+    padding: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: left;
+}
+
+footer a:hover {
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer p {
+    text-decoration: none;
+    text-align: center;
+}

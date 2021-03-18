@@ -1,0 +1,154 @@
+body {
+    background: grey;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #100da1;
+    width: 100%;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#navigation_and_searchbar {
+    background-color: #96dfce;
+    height: 80px;
+}
+
+#navigation_and_searchbar nav {
+    display: block;
+    margin: auto;
+    float: left;
+    width: 70%;
+    max-height: 80px;
+}
+
+#navigation_and_searchbar nav ul {
+    list-style: none;
+}
+ 
+#navigation_and_searchbar nav ul li {
+    float: left;
+    font-size: 16px;
+    line-height: 10px;
+}
+ 
+#navigation_and_searchbar nav ul li a {
+    display: block;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+ 
+#navigation_and_searchbar nav ul li:hover {
+    background: #005687;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+form {
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    width: calc(100% - 1em);
+    border-radius: 1em;
+    border: solid black;
+    padding: 1em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+form label {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+}
+
+form input {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+#submit {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+#navigation_and_searchbar aside {
+    float: left;
+    display: table;
+    width: 30%;
+    height: 100%;
+}
+
+main {
+    width: calc(100% - 1em);
+    min-height: 500px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#container_index {
+    width: 100%;
+    min-height: 800px;
+}
+
+#index_section {
+    float: left;
+    display: block;
+    width: 50%;
+}
+
+#index_section h2, #image_section h2{
+    text-align: center;
+}
+
+#index_section p {
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    font-size: larger;
+    max-width: calc(500px - 1em);
+    border: 5px solid #3b6878;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+#image_section img {
+    float: left;
+    display: block;
+    margin: 0 auto;
+    width: calc(50% - 1em);
+    border: 5px solid #3b6878;
+    border-radius: 1em;
+}
+
+footer {
+    background-color: #63aa99;
+    width: calc(100% - 1em);
+    min-height: 80px;
+    padding: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: left;
+}
+
+footer a:hover {
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer p {
+    text-decoration: none;
+    text-align: center;
+}

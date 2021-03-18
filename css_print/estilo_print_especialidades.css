@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#navigation_and_searchbar {
+    display: block;
+    margin: 0 auto;
+    height: fit-content;
+}
+
+#navigation_and_searchbar nav {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+#navigation_and_searchbar nav ul {
+    list-style-type: none;
+}
+ 
+#navigation_and_searchbar nav ul li {
+    text-align: center;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+}
+
+#navigation_and_searchbar aside {
+    display: block;
+    margin: 0 auto;
+    width:fit-content;
+}
+/*----------------------------------------*/
+main {
+    width: calc(100% - 1em);
+    min-height:fit-content;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#container_especialidades {
+    width: 100%;
+    min-height: 500px;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 800px;
+}
+
+th, td {
+    padding: 1em;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/*ESPECIALIDADES*/
+.especialidades ul {
+    list-style-type: none;
+    margin: 0 auto;
+    width: calc(60% - 1em);
+    border: 2px solid black;
+    padding: 1em;
+}
+
+.especialidades ul li {
+    margin: 1em;
+    text-align: center;
+}
+
+.especialidades ul h2 {
+    text-align: center;
+}
+
+.especialidades ul p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.especialidades ul img {
+    display: block;
+    margin: 0 auto;
+}
+
+#precio {
+    font-weight: bold;
+}
+
+#especialistas {
+    font-variant: small-caps;
+}
+
+/*----------------------------------------*/
+footer {
+    width: calc(100% - 1em);
+    min-height: 80px;
+    padding: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: left;
+}
+
+footer p {
+    text-decoration: none;
+    text-align: center;
+}

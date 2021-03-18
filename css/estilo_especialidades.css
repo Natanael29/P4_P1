@@ -1,0 +1,192 @@
+body {
+    background: grey;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #100da1;
+    width: 100%;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#navigation_and_searchbar {
+    background-color: #96dfce;
+    height: 80px;
+}
+
+#navigation_and_searchbar nav {
+    display: block;
+    margin: auto;
+    float: left;
+    width: 70%;
+    max-height: 80px;
+}
+
+#navigation_and_searchbar nav ul {
+    list-style: none;
+}
+ 
+#navigation_and_searchbar nav ul li {
+    float: left;
+    font-size: 16px;
+    line-height: 10px;
+}
+ 
+#navigation_and_searchbar nav ul li a {
+    display: block;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+ 
+#navigation_and_searchbar nav ul li:hover {
+    background: #005687;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+form {
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    width: calc(100% - 1em);
+    border-radius: 1em;
+    border: solid black;
+    padding: 1em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+form label {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+}
+
+form input {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+#submit {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+#navigation_and_searchbar aside {
+    float: left;
+    display: table;
+    width: 30%;
+    height: 100%;
+}
+
+main {
+    width: calc(100% - 1em);
+    min-height: 500px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+/*Especialidades--TABLA*/
+#container_especialidades {
+    width: 100%;
+    min-height: 500px;
+}
+
+table {
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 800px;
+}
+
+th, td {
+    padding: 1em;
+    text-align: center;
+}
+
+thead {
+    background-color: #246355;
+    border-bottom: 5px solid #0F362D;
+    color: white;
+}
+
+tr:hover {
+    background-color: #ffc0cb;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+/*ESPECIALIDADES*/
+.especialidades ul {
+    background: #63aa99;
+    border: 5px solid #2aa4c2;
+    list-style-type: none;
+    margin: 0 auto;
+    width: calc(60% - 1em);
+    padding: 1em;
+}
+
+.especialidades ul li {
+    margin: 1em;
+    text-align: center;
+}
+
+.especialidades ul h2 {
+    text-align: center;
+    text-decoration: underline wavy blue;
+}
+
+.especialidades ul p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.especialidades ul img {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #2aa4c2;
+}
+
+#precio {
+    font-weight: bold;
+}
+
+#especialistas {
+    font-variant: small-caps;
+}
+
+footer {
+    background-color: #63aa99;
+    width: calc(100% - 1em);
+    min-height: 80px;
+    padding: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: left;
+}
+
+footer a:hover {
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer p {
+    text-decoration: none;
+    text-align: center;
+}

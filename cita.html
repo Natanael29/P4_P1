@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pedir Cita</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilo_cita.css">
+    <link rel="stylesheet" type="text/css" media="print" href="css_print/estilo_print_cita.css">
+</head>
+
+<body>
+    <div id="container_cita">
+        <header>
+            <img src="imagenes/logotipo.jpg" alt="logotipo">
+        </header>
+        <div id="navigation_and_searchbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="contacto.html">Contáctanos</a></li>
+                    <li><a href="especialidades.html">Especialidades de WebSalud</a></li>
+                </ul>
+            </nav>
+            <aside>
+                <form>
+                    <label for="buscar">Buscar: </label>
+                    <input type="text" id="buscar" name="buscar">
+                    <input id="submit" type="submit" value="enviar">
+                </form>
+            </aside>
+        </div>
+
+
+        <!-- 
+                <div class="clearfix"></div>
+            -->
+        <main>
+            <form id="pedir_cita">
+                <fieldset>
+                    <legend>
+                        <h2>Pedir Cita Online</h2>
+                    </legend>
+                    <p>
+                        <label for="nombre">Nombre: </label>
+                        <input id="nombre" type="text" name="nombre" required />
+                    </p>
+                    <p>
+                        <label for="apellidos">Apellidos: </label>
+                        <input id="apellidos" type="text" name="apellidos" required="" />
+                    </p>
+                    <p>
+                        <label for="genero">Género: </label>
+                        <select id="genero" name="genero">
+                            <option>Masculino</option>
+                            <option>Femenino</option>
+                            <option>Otro</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="telefono">Teléfono: </label>
+                        <input id="telefono" type="tel" name="telefono" required="" />
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input id="email" type="email" name="email" required="" />
+                    </p>
+                    <p>
+                        <label for="fecha">Fecha: </label>
+                        <input id="fecha" type="date" name="fecha" required="" />
+                    </p>
+                    <p>
+                        <label for="detalles">Detalles de cita previa: </label>
+                        <textarea id="detalles" name="mensaje"></textarea>
+                    </p>
+                    <div id="button">
+                        <p><input type="submit" value="Enviar datos"></p>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <p><a href="index.html">Volver a la página principal</a></p>
+            <p>Copyright &copy; 2021. Natanael Martínez</p>
+        </footer>
+    </div>
+</body>
+
+</html>
